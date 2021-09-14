@@ -1,2 +1,2 @@
-# video-stream-ios
+# MVVM Architecture iOS
  
