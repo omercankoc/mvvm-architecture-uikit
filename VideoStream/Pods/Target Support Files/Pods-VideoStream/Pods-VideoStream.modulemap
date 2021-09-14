@@ -1,6 +1,0 @@
-module Pods_VideoStream {
-  umbrella header "Pods-VideoStream-umbrella.h"
-
-  export *
-  module * { export * }
-}
