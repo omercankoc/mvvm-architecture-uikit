@@ -9,7 +9,13 @@ import Foundation
 
 struct CoinListViewModel {
     let coinCurrencyList : [CoinModel]
-    
+}
+
+struct CoinViewModel {
+    let coinCurrency : CoinModel
+}
+
+extension CoinListViewModel {
     func numberOfRowsInSection() -> Int {
         return self.coinCurrencyList.count
     }
@@ -20,9 +26,7 @@ struct CoinListViewModel {
     }
 }
 
-struct CoinViewModel {
-    let coinCurrency : CoinModel
-    
+extension CoinViewModel {
     var currency : String {
         return self.coinCurrency.currency
     }

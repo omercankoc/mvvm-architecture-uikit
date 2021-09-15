@@ -13,6 +13,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     private var coinListViewModel : CoinListViewModel!
     
+    private var colorArray = [UIColor]()
+    
     // Row sayisini elde et.
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.coinListViewModel == nil ? 0 : self.coinListViewModel.numberOfRowsInSection()
@@ -24,6 +26,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let coinViewModel = self.coinListViewModel.coinIndex(indexPath.row)
         cell.labelCurrency.text = coinViewModel.currency
         cell.labelPrice.text = coinViewModel.price
+        cell.backgroundColor = self.colorArray[indexPath.row % 5]
         return cell
     }
     
@@ -33,8 +36,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableViewCoins.delegate = self
         tableViewCoins.dataSource = self
         
-        getData()
+        self.colorArray = [
+            UIColor(displayP3Red: 50/255, green: 50/255, blue: 50/255, alpha: 1.0),
+            UIColor(displayP3Red: 100/255, green: 100/255, blue: 100/255, alpha: 1.0),
+            UIColor(displayP3Red: 150/255, green: 150/255, blue: 150/255, alpha: 1.0),
+            UIColor(displayP3Red: 200/255, green: 200/255, blue: 200/255, alpha: 1.0),
+            UIColor(displayP3Red: 250/255, green: 250/255, blue: 250/255, alpha: 1.0)
+        ]
         
+        getData()
     }
     
     func getData(){
