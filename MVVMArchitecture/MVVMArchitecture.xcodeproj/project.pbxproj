@@ -13,6 +13,7 @@
 		6ABFD4D326F123410070C4B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABFD4D126F123410070C4B6 /* Main.storyboard */; };
 		6ABFD4D526F123460070C4B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABFD4D426F123460070C4B6 /* Assets.xcassets */; };
 		6ABFD4D826F123460070C4B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABFD4D626F123460070C4B6 /* LaunchScreen.storyboard */; };
+		6ABFD4E226F128080070C4B6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABFD4E126F128080070C4B6 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6ABFD4D426F123460070C4B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6ABFD4D726F123460070C4B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6ABFD4D926F123460070C4B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ABFD4E126F128080070C4B6 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				6ABFD4D426F123460070C4B6 /* Assets.xcassets */,
 				6ABFD4D626F123460070C4B6 /* LaunchScreen.storyboard */,
 				6ABFD4D926F123460070C4B6 /* Info.plist */,
+				6ABFD4E126F128080070C4B6 /* TableViewCell.swift */,
 			);
 			path = MVVMArchitecture;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ABFD4D026F123410070C4B6 /* ViewController.swift in Sources */,
+				6ABFD4E226F128080070C4B6 /* TableViewCell.swift in Sources */,
 				6ABFD4CC26F123410070C4B6 /* AppDelegate.swift in Sources */,
 				6ABFD4CE26F123410070C4B6 /* SceneDelegate.swift in Sources */,
 			);
