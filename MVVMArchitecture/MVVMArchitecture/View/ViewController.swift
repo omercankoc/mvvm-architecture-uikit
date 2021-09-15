@@ -27,6 +27,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         tableViewCoins.delegate = self
         tableViewCoins.dataSource = self
+        
+        let url = URL(string : "https://raw.githubusercontent.com/omercankoc/mvvm-architecture-ios/master/coins.json")!
+        
+        CoinService().downloadCoins(url: url) {(coinList) in
+            if let coinList = coinList {
+                //print(coinList)
+            }
+        }
     }
 }
 
