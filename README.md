@@ -17,17 +17,24 @@ MVVM is a design pattern we use to separate layers from each other and manage re
     </tbody>
 </table>
 
+### About
+- MVVM
+- UIKit
+- Table View
+- Search Bar
+- Segue
+
 <table class="image-table">
     <tbody>
         <tr>
             <td>
-                <img src="https://github.com/omercankoc/swiftui-custom-action-sheet/blob/master/Images/firstMain.png" width="300" height="500">
+                <img src="https://github.com/omercankoc/mvvm-architecture-uikit/blob/main/images/countries.png" width="360" height="750">
             </td>
             <td>
-                <img src="https://github.com/omercankoc/swiftui-custom-action-sheet/blob/master/Images/datePicker.png" width="300" height="500">
+                <img src="https://github.com/omercankoc/mvvm-architecture-uikit/blob/main/images/search.png" width="360" height="750">
             </td>
             <td>
-                <img src="https://github.com/omercankoc/swiftui-custom-action-sheet/blob/master/Images/secondMain.png" width="300" height="500">
+                <img src="https://github.com/omercankoc/mvvm-architecture-uikit/blob/main/images/country.png" width="360" height="750">
             </td>
         </tr>
     </tbody>
