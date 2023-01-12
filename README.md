@@ -11,7 +11,7 @@ MVVM is a design pattern we use to separate layers from each other and manage re
     <tbody>
         <tr>
             <td>
-                <img src="https://github.com/omercankoc/mvvm-architecture-uikit/blob/main/images/mvvm.gif" width="1000" height="300">
+                <img src="https://github.com/omercankoc/mvvm-architecture-uikit/blob/main/images/mvvm-arch.png" width="950" height="550">
             </td>
         </tr>
     </tbody>
