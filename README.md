@@ -28,13 +28,13 @@ MVVM is a design pattern we use to separate layers from each other and manage re
     <tbody>
         <tr>
             <td>
-                <img src="https://github.com/omercankoc/mvvm-architecture-uikit/blob/main/images/countries.png" width="360" height="750">
+                <img src="https://github.com/omercankoc/mvvm-architecture-uikit/blob/main/images/countries.png" width="350" height="600">
             </td>
             <td>
-                <img src="https://github.com/omercankoc/mvvm-architecture-uikit/blob/main/images/search.png" width="360" height="750">
+                <img src="https://github.com/omercankoc/mvvm-architecture-uikit/blob/main/images/search.png" width="350" height="600">
             </td>
             <td>
-                <img src="https://github.com/omercankoc/mvvm-architecture-uikit/blob/main/images/country.png" width="360" height="750">
+                <img src="https://github.com/omercankoc/mvvm-architecture-uikit/blob/main/images/country.png" width="350" height="600">
             </td>
         </tr>
     </tbody>
