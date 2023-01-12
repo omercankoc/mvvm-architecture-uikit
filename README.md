@@ -1,4 +1,4 @@
-# Model View ViewModel architecture and UIKit
+# Model View ViewModel Architecture and UIKit
 
 ### What is MVVM?
 MVVM is a design pattern we use to separate layers from each other and manage relationships between these layers. MVVM consists of three basic structures: Model, View, and ViewModel.
