@@ -39,4 +39,3 @@ MVVM is a design pattern we use to separate layers from each other and manage re
         </tr>
     </tbody>
 </table>
-
