@@ -47,6 +47,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A560EBA29897ABC00653CD9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E9F63296F52FC0056A468 /* CountryTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6A560EBB29897AD700653CD9 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E9F45296F46A60056A468 /* AppDelegate.swift */,
+				6A6E9F47296F46A60056A468 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		6A560EBC29897B2600653CD9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6AF0E57E297060760041FA45 /* CountryViewController.swift */,
+				6A6E9F49296F46A60056A468 /* CountriesViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		6A6E9F39296F46A60056A468 = {
 			isa = PBXGroup;
 			children = (
@@ -66,16 +92,14 @@
 		6A6E9F44296F46A60056A468 /* MVVMUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				6A6E9F45296F46A60056A468 /* AppDelegate.swift */,
-				6A6E9F47296F46A60056A468 /* SceneDelegate.swift */,
-				6AF0E57D297060190041FA45 /* Rows */,
+				6A560EBB29897AD700653CD9 /* Delegates */,
+				6A6E9F59296F49790056A468 /* Service */,
 				6A6E9F5C296F499D0056A468 /* Model */,
 				6A6E9F5A296F49860056A468 /* ViewModel */,
+				6A560EBC29897B2600653CD9 /* ViewController */,
 				6A6E9F5B296F49900056A468 /* View */,
-				6A6E9F59296F49790056A468 /* Service */,
-				6A6E9F4B296F46A60056A468 /* Main.storyboard */,
+				6A560EBA29897ABC00653CD9 /* Cell */,
 				6A6E9F4E296F46A70056A468 /* Assets.xcassets */,
-				6A6E9F50296F46A70056A468 /* LaunchScreen.storyboard */,
 				6A6E9F53296F46A70056A468 /* Info.plist */,
 			);
 			path = MVVMUIKit;
@@ -100,8 +124,8 @@
 		6A6E9F5B296F49900056A468 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				6A6E9F49296F46A60056A468 /* CountriesViewController.swift */,
-				6AF0E57E297060760041FA45 /* CountryViewController.swift */,
+				6A6E9F4B296F46A60056A468 /* Main.storyboard */,
+				6A6E9F50296F46A70056A468 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -112,14 +136,6 @@
 				6A6E9F5D296F4FE20056A468 /* CountryModel.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		6AF0E57D297060190041FA45 /* Rows */ = {
-			isa = PBXGroup;
-			children = (
-				6A6E9F63296F52FC0056A468 /* CountryTableViewCell.swift */,
-			);
-			path = Rows;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
