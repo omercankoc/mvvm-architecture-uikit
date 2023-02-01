@@ -13,3 +13,19 @@ MVVM is a design pattern we use to separate layers from each other and manage re
 - Table View
 - Search Bar
 - Segue
+
+<table class="image-table">
+    <tbody>
+        <tr>
+            <td>
+                <img src="https://github.com/omercankoc/mvvm-architecture-uikit/blob/main/Images/countries.png" width="350" height="500">
+            </td>
+            <td>
+                <img src="https://github.com/omercankoc/mvvm-architecture-uikit/blob/main/Images/searchable.png" width="350" height="500">
+            </td>
+            <td>
+                <img src="https://github.com/omercankoc/mvvm-architecture-uikit/blob/main/Images/country.png" width="350" height="500">
+            </td>
+        </tr>
+    </tbody>
+</table>
