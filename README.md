@@ -7,6 +7,16 @@ MVVM is a design pattern we use to separate layers from each other and manage re
 - View : These are the classes that contain the codes of the interfaces that the user interacts with. Logic operations are not performed in these classes. The purpose of these classes is to Observe the data we want from the ViewModel.
 - ViewModel : Classes that provide communication between View and Models. Logic operations are performed in these classes. A request is made from the View and certain logic and data sources are provided in the ViewModel. The results of the changes related to the data we created in this layer are Observed in the View.
 
+<table class="image-table">
+    <tbody>
+        <tr>
+            <td>
+                <img src="https://github.com/omercankoc/mvvm-architecture-uikit/blob/main/Images/mvvmuikit.png" width="800" height="400">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 ### About
 - MVVM
 - UIKit
